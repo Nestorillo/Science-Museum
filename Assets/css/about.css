@@ -1,0 +1,325 @@
+/* General styles */
+body {
+    background-color: #FFFE86;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  main {
+    flex: 1; 
+}
+/* Header */
+header {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFB5DF;
+    padding: 5px 5%;
+    height: auto; 
+    gap: 10px; 
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; 
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px; 
+    justify-content: center; 
+    flex: 1; 
+}
+
+header nav a {
+    text-decoration: none;
+    color: #FF0091;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1rem; /* Tamaño del texto adaptado */
+    transition: 0.3s ease; /* Animación suave */
+    white-space: nowrap; /* Evita que los enlaces se dividan en varias líneas */
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.1); /* Suaviza la escala en hover */
+}
+
+header .btn-get-tickets {
+    background-color: #FF0091;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: solid rgb(156, 2, 136);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none; /* Elimina el subrayado */
+   
+}
+
+header .btn-get-tickets:hover {
+    background-color: #E6007A; /* Cambio de color en hover */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    
+}
+  /* Testimonials Section */
+.testimonials-section {
+    background-color: #FFFE86;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%; 
+    flex-wrap: wrap; 
+}
+
+/* Testimonials */
+.testimonial {
+    width: 30%;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #333333;
+    text-align: justify;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px; 
+    position: relative;
+}
+
+.testimonial.left {
+    text-align: left;
+}
+
+.testimonial.right {
+    text-align: left; 
+}
+
+/* Star Icon Inline */
+.star-icon-inline {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px; 
+    flex-shrink: 0; 
+}
+/* Logo */
+.logo-center {
+    text-align: center;
+}
+
+/* Logo center*/
+.logo-center img {
+    display: block;
+    margin: 0 auto;
+    width: 200px; 
+    height: auto;
+}
+
+/* Title */
+.who-we-are-section {
+    text-align: center;
+    margin-top: 2px; 
+}
+
+.who-we-are-section h1 {
+    font-size: 2.5rem;
+    color: #FF9900; 
+    margin: 1px 0; 
+}
+
+.who-we-are-section p {
+    font-size: 1.2rem;
+    color:#FF9900; 
+    margin: 0; 
+}
+/* General Section */
+.our-section {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #FFFCE6; 
+    padding: 30px 5%;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+/* General Section */
+.our-section {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #FFFCE6; 
+    padding: 14px 5%; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    background-color:#FFFE86;
+}
+
+/* Card */
+.our-card {
+    text-align: center;
+    flex: 1 1 30%; 
+    max-width: 300px; 
+    margin: 3px;
+    background-color:  #FFD700; 
+    border-radius: 10px; 
+    padding: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border: 2px solid #FF9900;
+    max-height: 250px;
+}
+/* Circle Image */
+.circle-image {
+    width: 120px; 
+    height: 120px;
+    border-radius: 50%; 
+    margin: 0 auto 5px auto; 
+    display: block; 
+    border: 3px solid #FF0091; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Títles */
+.our-card h3 {
+    font-size: 1.5rem;
+    color: #FF0091;
+    margin: 10px 0;
+}
+
+/* Descriptions */
+.our-card p {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.5;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .our-card {
+        flex: 1 1 100%; 
+        max-width: 100%; 
+        margin: 10px 0; 
+    }
+}
+
+/* Titles */
+.our-card h3 {
+    font-size: 1.5rem;
+    color: #FF0091;
+    margin: 10px 0;
+}
+
+/* Descriptions*/
+.our-card p {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.5;
+}
+/* Footer*/
+footer {
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5px 20px; 
+    background-color: #FFB5DF; 
+    color: #FF0091; 
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box; 
+}
+footer p {
+    font-size: 0.9rem; 
+}
+footer .social-icons img {
+    width: 25px; 
+    height: 25px; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+footer .social-icons img:hover {
+    transform: scale(1.2); 
+    opacity: 0.8; 
+}
+/* Tablets Responsiveness */
+@media (max-width: 768px) {
+    .testimonials-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+        gap: 20px; 
+        padding: 10px;
+    }
+/* Testimonials */
+    .testimonial {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+    .logo img {
+        width: 150px;
+        margin: 10px 0; 
+    }
+    .testimonial p {
+        font-size: 0.9rem; 
+    }
+    .testimonial img {
+        display: none; 
+    }
+}
+@media (max-width: 480px) {
+    .testimonials-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+        gap: 20px; 
+        padding: 10px;
+    }
+    .testimonial {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+    .logo img {
+        width: 150px; 
+        margin: 10px 0; 
+    }
+    .testimonial p {
+        font-size: 0.9rem; 
+    }
+    .testimonial img {
+        display: none;
+    }
+    footer {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        gap: 10px; 
+        padding: 10px;
+      }
+      footer p {
+        font-size: 0.8rem;
+        margin: 0; 
+      }
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px; 
+      }
+      .social-icons img {
+        width: 20px; 
+        height: 20px;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+      .social-icons img:hover {
+        transform: scale(1.2); 
+        opacity: 0.8;
+      }
+}
