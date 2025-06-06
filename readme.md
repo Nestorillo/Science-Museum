@@ -10,7 +10,7 @@ An interactive and educational website for the Science Museum, designed to engag
 ##  Live Site
 [View Science Museum Live](https://science-museum-nestor.netlify.app)
 
-## 🎯Features
+## Features
 - Fully responsive layout.
 - Interactive content and exhibit highlights.
 - Clean and accessible design.
@@ -19,6 +19,6 @@ An interactive and educational website for the Science Museum, designed to engag
 ##  Screenshots
 (Insert screenshots here if you want — optional)
 
-## 🛠 Getting Started
+##  Getting Started
 To view the project locally:
  https://github.com/nestorillo/Science-Museum.git
