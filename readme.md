@@ -16,9 +16,6 @@ An interactive and educational website for the Science Museum, designed to engag
 - Clean and accessible design.
 - Optimized for performance.
 
-##  Screenshots
-(Insert screenshots here if you want — optional)
-
 ##  Getting Started
 To view the project locally:
  https://github.com/nestorillo/Science-Museum.git
